@@ -1,5 +1,5 @@
-class Propinsi
-  def self.hi
-    puts "Hello world!"
-  end
+require "propinsi/version"
+
+module Propinsi
+  # Your code goes here...
 end
