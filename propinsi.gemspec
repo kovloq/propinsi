@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Perdana Adhitama"]
   spec.email         = ["perdana_adhitama@yahoo.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "http;//github.com/kovloq/propinsi"
+  spec.summary       = "Propinsi master table"
+  spec.description   = "Propinsi master table"
+  spec.homepage      = "http://github.com/kovloq/propinsi"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

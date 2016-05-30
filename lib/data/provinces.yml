@@ -1,0 +1,7 @@
+# All data
+# Taken from http://mfdonline.bps.go.id Feb 2016
+---
+provinces: 
+  - name: Aceh
+    id: 1
+
