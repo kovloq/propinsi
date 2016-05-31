@@ -37,6 +37,12 @@ module Propinsi
 	   
 	    # puts text;
 	    inject_into_file 'lib/tasks/propinsi.rake', text, after: "task :import => :environment do"
+	    #inject into province model
+	    province_text="\nhas_many :cities\nvalidates_presence_of :name"
+	    inject_into_file 'app/models/province.rb', province_text, after: "class Province < ActiveRecord::Base"
+	    #inject into city model
+	    city_text="\nbelongs_to :province\nvalidates_presence_of :name"
+	    inject_into_file 'app/models/city.rb', city_text, after: "class City < ActiveRecord::Base"
 	  end
 
 	end
