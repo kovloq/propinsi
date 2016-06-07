@@ -1,8 +1,7 @@
 # Propinsi
+[![Gem Version](https://badge.fury.io/rb/propinsi.svg)](https://badge.fury.io/rb/propinsi) [![Gem Version](https://travis-ci.org/kovloq/propinsi.svg)](http://travis-ci.org/kovloq/propinsi) 
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/propinsi`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Now, to get all provinces and Indonesia cities become easier. No need to find the excel file or sql file to get all the data. Propinsi gem has all of it. Just follow the instruction below: 
 
 ## Installation
 
@@ -20,19 +19,46 @@ Or install it yourself as:
 
     $ gem install propinsi
 
+after instalation there will be some new files
+
+lib/tasks/propinsi.rake
+model/province.rb
+model/city.rb 
+
+run:
+
+	$ rake db:migrate
+to build model and create a table named provinces and cities in your database
+
+then run: 
+
+	$ rake propinsi:import
+to import all provinces and cities into your created table. 
+
 ## Usage
 
-TODO: Write usage instructions here
+### Usage with database
+Since the province and city is already in your database, you can use it normaly as you call a table. 
+To implement in a select box, you can use [collection select](http://guides.rubyonrails.org/form_helpers.html).
+`<%= collection_select(:user, :province_id, Province.all, :id, :name) %>` 
 
-## Development
+### Usage without database
+If you do not want to use database, you can use our array based list.
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Display all Province
+`Propinsi.all`
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Find province based on ID or name
+`Propinsi.findpropinsi(1)`
+`Propinsi.findpropinsi("Aceh")`
+
+find city based on ID or name
+`Propinsi.findcity(2)`
+`Propoinsi.findcity(2)`
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/propinsi. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kovloq/propinsi. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
