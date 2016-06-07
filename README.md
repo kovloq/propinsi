@@ -62,8 +62,13 @@ Display all province
 
 Find province based on ID or name
 
-	`Propinsi.findpropinsi(1)`
-	`Propinsi.findpropinsi("Aceh")`
+	`Propinsi.findpropinsi(20)`
+
+	#{"name"=>"Kalimantan Barat", "id"=>20} 
+
+	`Propinsi.findpropinsi("jakarta")`
+
+	#{"name"=>"Dki Jakarta", "id"=>11} 
 
 Diplay all City
 
@@ -71,8 +76,17 @@ Diplay all City
 
 find city based on ID or name
 
-	`Propinsi.findkota(2)` #Kabupaten Aceh Tenggara
+	`Propinsi.findkota(2)` 
+
+	# {"name"=>"Kabupaten Aceh Singkil", "id"=>2, "province_id"=>1, "province_name"=>"Aceh"} 
+
 	`Propoinsi.findkota("bekasi")`
+
+	# {"name"=>"Kabupaten Bekasi", "id"=>176, "province_id"=>12, "province_name"=>"Jawa Barat"} 
+
+	`Propoinsi.findkota("kota bekasi")`
+
+	#{"name"=>"Kota Bekasi", "id"=>183, "province_id"=>12, "province_name"=>"Jawa Barat"} 
 
 ## Contributing
 

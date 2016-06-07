@@ -34,7 +34,7 @@ module Propinsi
   	end
 
   	def Propinsi.findpropinsi(input)
-  		prop=self.all
+  		prop=self.propinsi
   		index=prop.each_with_index do |row,idx|
   			break idx if(input.to_s == row["id"].to_s || row["name"].to_s.downcase[input.to_s.downcase])
   		end
