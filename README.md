@@ -1,5 +1,9 @@
 # Propinsi
-[![Gem Version](https://badge.fury.io/rb/propinsi.svg)](https://badge.fury.io/rb/propinsi) [![Gem Version](https://travis-ci.org/kovloq/propinsi.svg)](http://travis-ci.org/kovloq/propinsi) 
+[![Gem Version](https://badge.fury.io/rb/propinsi.svg)](https://badge.fury.io/rb/propinsi) 
+[![Gem Version](https://travis-ci.org/kovloq/propinsi.svg)](http://travis-ci.org/kovloq/propinsi) 
+[![Gem Version](https://img.shields.io/gemnasium/kovloq/propinsi.svg)](https://gemnasium.com/kovloq/propinsi) 
+
+https://rubygems.org/gems/propinsi
 
 Now, to get all provinces and Indonesia cities become easier. No need to find the excel file or sql file to get all the data. Propinsi gem has all of it. Just follow the instruction below: 
 
