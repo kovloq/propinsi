@@ -19,11 +19,17 @@ Or install it yourself as:
 
     $ gem install propinsi
 
+run 
+
+	$ rails g propinsi:install
+
 after instalation there will be some new files
 
-lib/tasks/propinsi.rake
-model/province.rb
-model/city.rb 
+- lib/tasks/propinsi.rake
+- db/migrate/yyyymmdd_create_cities.rb
+- db/migrate/yyyymmdd_create_provinces.rb
+- model/province.rb
+- model/city.rb 
 
 run:
 
@@ -40,27 +46,33 @@ to import all provinces and cities into your created table.
 ### Usage with database
 Since the province and city is already in your database, you can use it normaly as you call a table. 
 To implement in a select box, you can use [collection select](http://guides.rubyonrails.org/form_helpers.html).
-`<%= collection_select(:user, :province_id, Province.all, :id, :name) %>` 
+
+	`<%= collection_select(:user, :province_id, Province.all, :id, :name) %>` 
 
 ### Usage without database
 If you do not want to use database, you can use our array based list.
 
 Display all data
-`Propinsi.all`
+
+	`Propinsi.all`
 
 Display all province
-`Propinsi.propinsi`
+
+	`Propinsi.propinsi`
 
 Find province based on ID or name
-`Propinsi.findpropinsi(1)`
-`Propinsi.findpropinsi("Aceh")`
+
+	`Propinsi.findpropinsi(1)`
+	`Propinsi.findpropinsi("Aceh")`
 
 Diplay all City
-`Propinsi.kota`
+
+	`Propinsi.kota`
 
 find city based on ID or name
-`Propinsi.findkota(2)`
-`Propoinsi.findkota(2)`
+
+	`Propinsi.findkota(2)` #Kabupaten Aceh Tenggara
+	`Propoinsi.findkota("bekasi")`
 
 ## Contributing
 

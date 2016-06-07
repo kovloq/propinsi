@@ -23,7 +23,7 @@ module Propinsi
   	def Propinsi.findkota(input)
   		kota=self.kota;
   		index=kota.each_with_index do |row,idx|
-  			break idx if(input.to_s == row["id"].to_s || input.to_s == row["name"].to_s)
+  			break idx if(input.to_s == row["id"].to_s || row["name"].to_s.downcase.include? input.to_s.downcase)
   		end
   		if index.kind_of?(Array)
   			return false;
@@ -36,7 +36,7 @@ module Propinsi
   	def Propinsi.findpropinsi(input)
   		prop=self.all
   		index=prop.each_with_index do |row,idx|
-  			break idx if(input.to_s == row["id"].to_s || input.to_s == row["name"].to_s)
+  			break idx if(input.to_s == row["id"].to_s || row["name"].to_s.downcase.include? input.to_s.downcase)
   		end
   		if index.kind_of?(Array)
   			return false;
