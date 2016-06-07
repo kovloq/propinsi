@@ -51,44 +51,44 @@ to import all provinces and cities into your created table.
 Since the province and city is already in your database, you can use it normaly as you call a table. 
 To implement in a select box, you can use [collection select](http://guides.rubyonrails.org/form_helpers.html).
 
-	`<%= collection_select(:user, :province_id, Province.all, :id, :name) %>` 
+	<%= collection_select(:user, :province_id, Province.all, :id, :name) %>`
 
 ### Usage without database
 If you do not want to use database, you can use our array based list.
 
 Display all data
 
-	`Propinsi.all`
+	Propinsi.all
 
 Display all province
 
-	`Propinsi.propinsi`
+	Propinsi.propinsi
 
 Find province based on ID or name
 
-	`Propinsi.findpropinsi(20)`
+	Propinsi.findpropinsi(20)
 
 	#{"name"=>"Kalimantan Barat", "id"=>20} 
 
-	`Propinsi.findpropinsi("jakarta")`
+	Propinsi.findpropinsi("jakarta")
 
 	#{"name"=>"DKI Jakarta", "id"=>11} 
 
 Diplay all City
 
-	`Propinsi.kota`
+	Propinsi.kota
 
 find city based on ID or name
 
-	`Propinsi.findkota(2)` 
+	Propinsi.findkota(2)
 
 	# {"name"=>"Kabupaten Aceh Singkil", "id"=>2, "province_id"=>1, "province_name"=>"Aceh"} 
 
-	`Propoinsi.findkota("bekasi")`
+	Propoinsi.findkota("bekasi")
 
 	# {"name"=>"Kabupaten Bekasi", "id"=>176, "province_id"=>12, "province_name"=>"Jawa Barat"} 
 
-	`Propoinsi.findkota("kota bekasi")`
+	Propoinsi.findkota("kota bekasi")
 
 	#{"name"=>"Kota Bekasi", "id"=>183, "province_id"=>12, "province_name"=>"Jawa Barat"} 
 
