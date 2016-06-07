@@ -45,16 +45,22 @@ To implement in a select box, you can use [collection select](http://guides.ruby
 ### Usage without database
 If you do not want to use database, you can use our array based list.
 
-Display all Province
+Display all data
 `Propinsi.all`
+
+Display all province
+`Propinsi.propinsi`
 
 Find province based on ID or name
 `Propinsi.findpropinsi(1)`
 `Propinsi.findpropinsi("Aceh")`
 
+Diplay all City
+`Propinsi.kota`
+
 find city based on ID or name
-`Propinsi.findcity(2)`
-`Propoinsi.findcity(2)`
+`Propinsi.findkota(2)`
+`Propoinsi.findkota(2)`
 
 ## Contributing
 
