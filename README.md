@@ -68,7 +68,7 @@ Find province based on ID or name
 
 	`Propinsi.findpropinsi("jakarta")`
 
-	#{"name"=>"Dki Jakarta", "id"=>11} 
+	#{"name"=>"DKI Jakarta", "id"=>11} 
 
 Diplay all City
 
