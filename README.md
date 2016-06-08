@@ -84,11 +84,11 @@ find city based on ID or name
 
 	# {"name"=>"Kabupaten Aceh Singkil", "id"=>2, "province_id"=>1, "province_name"=>"Aceh"} 
 
-	Propoinsi.findkota("bekasi")
+	Propinsi.findkota("bekasi")
 
 	# {"name"=>"Kabupaten Bekasi", "id"=>176, "province_id"=>12, "province_name"=>"Jawa Barat"} 
 
-	Propoinsi.findkota("kota bekasi")
+	Propinsi.findkota("kota bekasi")
 
 	#{"name"=>"Kota Bekasi", "id"=>183, "province_id"=>12, "province_name"=>"Jawa Barat"} 
 
