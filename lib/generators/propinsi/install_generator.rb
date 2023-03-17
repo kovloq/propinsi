@@ -16,7 +16,7 @@ module Propinsi
 	  	# Generate Propinsi
 	    generate 'model', "province name:string --no-timestamps"
 	    # generate Kota
-	    generate 'model', "city province_id:string name:string --no-timestamps"
+	    generate 'model', "city name:string province:references --no-timestamps"
 	  end
 
 	  def create_db_seed
@@ -38,11 +38,11 @@ module Propinsi
 	    # puts text;
 	    inject_into_file 'lib/tasks/propinsi.rake', text, after: "task :import => :environment do"
 	    #inject into province model
-	    province_text="\nhas_many :cities\nvalidates_presence_of :name"
-	    inject_into_file 'app/models/province.rb', province_text, after: "class Province < ActiveRecord::Base"
+	    province_text="\nhas_many :cities\nvalidates :name, presence: true"
+	    inject_into_file 'app/models/province.rb', province_text, after: "class Province < ApplicationRecord"
 	    #inject into city model
-	    city_text="\nbelongs_to :province\nvalidates_presence_of :name"
-	    inject_into_file 'app/models/city.rb', city_text, after: "class City < ActiveRecord::Base"
+	    city_text="\nbelongs_to :province\nvalidates :name, presence: true"
+	    inject_into_file 'app/models/city.rb', city_text, after: "class City < ApplicationRecord"
 	  end
 
 	end
