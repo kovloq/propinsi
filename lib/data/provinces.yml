@@ -2,7 +2,7 @@
 # Taken from http://mfdonline.bps.go.id Feb 2016
 ---
 provinces:
-  - name: Aceh
+  - name: Nanggore Aceh Darussalam
     id: 1
 
   - name: Sumatera Utara
@@ -41,7 +41,7 @@ provinces:
   - name: Jawa Tengah
     id: 13
 
-  - name: Di Yogyakarta
+  - name: DI Yogyakarta
     id: 14
 
   - name: Jawa Timur
@@ -103,4 +103,16 @@ provinces:
 
   - name: Papua
     id: 34
+
+  - name: Papua Selatan
+    id: 35
+  
+  - name: Papua Tengah
+    id: 36
+
+  - name: Papua Penggunungan
+    id: 37
+
+  - name: Papua Barat Daya
+    id: 38
 

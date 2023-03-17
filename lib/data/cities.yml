@@ -3,117 +3,117 @@ cities:
   - name: Kabupaten Simeulue
     id: 1
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Singkil
     id: 2
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Selatan
     id: 3
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Tenggara
     id: 4
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Timur
     id: 5
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Tengah
     id: 6
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Barat
     id: 7
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Besar
     id: 8
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Pidie
     id: 9
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Bireuen
     id: 10
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Utara
     id: 11
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Barat Daya
     id: 12
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Gayo Lues
     id: 13
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Tamiang
     id: 14
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Nagan Raya
     id: 15
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Aceh Jaya
     id: 16
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Bener Meriah
     id: 17
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Pidie Jaya
     id: 18
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kota Banda Aceh
     id: 19
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kota Sabang
     id: 20
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kota Langsa
     id: 21
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kota Lhokseumawe
     id: 22
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kota Subulussalam
     id: 23
     province_id: 1
-    province_name: Aceh
+    province_name: Nanggore Aceh Darussalam
 
   - name: Kabupaten Nias
     id: 24
@@ -395,7 +395,7 @@ cities:
     province_id: 4
     province_name: Riau
 
-  - name: Kabupaten S I A K
+  - name: Kabupaten Siak
     id: 80
     province_id: 4
     province_name: Riau
@@ -430,7 +430,7 @@ cities:
     province_id: 4
     province_name: Riau
 
-  - name: Kota D U M A I
+  - name: Kota Dumai
     id: 87
     province_id: 4
     province_name: Riau
@@ -760,7 +760,7 @@ cities:
     province_id: 10
     province_name: Kepulauan Riau
 
-  - name: Kota B A T A M
+  - name: Kota Batam
     id: 153
     province_id: 10
     province_name: Kepulauan Riau
@@ -773,32 +773,32 @@ cities:
   - name: Kabupaten Kepulauan Seribu
     id: 155
     province_id: 11
-    province_name: Dki Jakarta
+    province_name: DKI Jakarta
 
   - name: Kota Jakarta Selatan
     id: 156
     province_id: 11
-    province_name: Dki Jakarta
+    province_name: DKI Jakarta
 
   - name: Kota Jakarta Timur
     id: 157
     province_id: 11
-    province_name: Dki Jakarta
+    province_name: DKI Jakarta
 
   - name: Kota Jakarta Pusat
     id: 158
     province_id: 11
-    province_name: Dki Jakarta
+    province_name: DKI Jakarta
 
   - name: Kota Jakarta Barat
     id: 159
     province_id: 11
-    province_name: Dki Jakarta
+    province_name: DKI Jakarta
 
   - name: Kota Jakarta Utara
     id: 160
     province_id: 11
-    province_name: Dki Jakarta
+    province_name: DKI Jakarta
 
   - name: Kabupaten Bogor
     id: 161
@@ -1113,27 +1113,27 @@ cities:
   - name: Kabupaten Kulon Progo
     id: 223
     province_id: 14
-    province_name: Di Yogyakarta
+    province_name: DI Yogyakarta
 
   - name: Kabupaten Bantul
     id: 224
     province_id: 14
-    province_name: Di Yogyakarta
+    province_name: DI Yogyakarta
 
   - name: Kabupaten Gunung Kidul
     id: 225
     province_id: 14
-    province_name: Di Yogyakarta
+    province_name: DI Yogyakarta
 
   - name: Kabupaten Sleman
     id: 226
     province_id: 14
-    province_name: Di Yogyakarta
+    province_name: DI Yogyakarta
 
   - name: Kota Yogyakarta
     id: 227
     province_id: 14
-    province_name: Di Yogyakarta
+    province_name: DI Yogyakarta
 
   - name: Kabupaten Pacitan
     id: 228
@@ -2387,28 +2387,28 @@ cities:
 
   - name: Kabupaten Sorong Selatan
     id: 478
-    province_id: 33
-    province_name: Papua Barat
+    province_id: 38
+    province_name: Papua Barat Daya
 
   - name: Kabupaten Sorong
     id: 479
-    province_id: 33
-    province_name: Papua Barat
+    province_id: 38
+    province_name: Papua Barat Daya
 
   - name: Kabupaten Raja Ampat
     id: 480
-    province_id: 33
-    province_name: Papua Barat
+    province_id: 38
+    province_name: Papua Barat Daya
 
   - name: Kabupaten Tambrauw
     id: 481
-    province_id: 33
-    province_name: Papua Barat
+    province_id: 38
+    province_name: Papua Barat Daya
 
   - name: Kabupaten Maybrat
     id: 482
-    province_id: 33
-    province_name: Papua Barat
+    province_id: 38
+    province_name: Papua Barat Daya
 
   - name: Kabupaten Manokwari Selatan
     id: 483
@@ -2422,18 +2422,18 @@ cities:
 
   - name: Kota Sorong
     id: 485
-    province_id: 33
-    province_name: Papua Barat
+    province_id: 38
+    province_name: Papua Barat Daya
 
   - name: Kabupaten Merauke
     id: 486
-    province_id: 34
-    province_name: Papua
+    province_id: 35
+    province_name: Papua Selatan
 
   - name: Kabupaten Jayawijaya
     id: 487
-    province_id: 34
-    province_name: Papua
+    province_id: 37
+    province_name: Papua Selatan
 
   - name: Kabupaten Jayapura
     id: 488
@@ -2442,8 +2442,8 @@ cities:
 
   - name: Kabupaten Nabire
     id: 489
-    province_id: 34
-    province_name: Papua
+    province_id: 36
+    province_name: Papua Tengah
 
   - name: Kabupaten Kepulauan Yapen
     id: 490
@@ -2457,48 +2457,48 @@ cities:
 
   - name: Kabupaten Paniai
     id: 492
-    province_id: 34
-    province_name: Papua
+    province_id: 36
+    province_name: Papua Tengah
 
   - name: Kabupaten Puncak Jaya
     id: 493
-    province_id: 34
-    province_name: Papua
+    province_id: 36
+    province_name: Papua Tengah
 
   - name: Kabupaten Mimika
     id: 494
-    province_id: 34
-    province_name: Papua
+    province_id: 36
+    province_name: Papua Tengah
 
   - name: Kabupaten Boven Digoel
     id: 495
-    province_id: 34
-    province_name: Papua
+    province_id: 35
+    province_name: Papua Selatan
 
   - name: Kabupaten Mappi
     id: 496
-    province_id: 34
-    province_name: Papua
+    province_id: 35
+    province_name: Papua Selatan
 
   - name: Kabupaten Asmat
     id: 497
-    province_id: 34
-    province_name: Papua
+    province_id: 35
+    province_name: Papua Selatan
 
   - name: Kabupaten Yahukimo
     id: 498
-    province_id: 34
-    province_name: Papua
+    province_id: 37
+    province_name: Papua Pegunungan
 
   - name: Kabupaten Pegunungan Bintang
     id: 499
-    province_id: 34
-    province_name: Papua
+    province_id: 37
+    province_name: Papua Pegunungan
 
   - name: Kabupaten Tolikara
     id: 500
-    province_id: 34
-    province_name: Papua
+    province_id: 37
+    province_name: Papua Pegunungan
 
   - name: Kabupaten Sarmi
     id: 501
@@ -2527,43 +2527,43 @@ cities:
 
   - name: Kabupaten Nduga
     id: 506
-    province_id: 34
-    province_name: Papua
+    province_id: 37
+    province_name: Papua Pegunungan
 
   - name: Kabupaten Lanny Jaya
     id: 507
-    province_id: 34
-    province_name: Papua
+    province_id: 37
+    province_name: Papua Pegunungan
 
   - name: Kabupaten Mamberamo Tengah
     id: 508
-    province_id: 34
-    province_name: Papua
+    province_id: 37
+    province_name: Papua Pegunungan
 
   - name: Kabupaten Yalimo
     id: 509
-    province_id: 34
-    province_name: Papua
+    province_id: 37
+    province_name: Papua Pegunungan
 
   - name: Kabupaten Puncak
     id: 510
-    province_id: 34
-    province_name: Papua
+    province_id: 36
+    province_name: Papua Tengah
 
   - name: Kabupaten Dogiyai
     id: 511
-    province_id: 34
-    province_name: Papua
+    province_id: 36
+    province_name: Papua Tengah
 
   - name: Kabupaten Intan Jaya
     id: 512
-    province_id: 34
-    province_name: Papua
+    province_id: 36
+    province_name: Papua Tengah
 
   - name: Kabupaten Deiyai
     id: 513
-    province_id: 34
-    province_name: Papua
+    province_id: 36
+    province_name: Papua Tengah
 
   - name: Kota Jayapura
     id: 514
